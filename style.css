@@ -67,10 +67,11 @@ header .search-bar-container{
     display: flex;
     align-items: center;
     z-index: 1001;
-    clip-path: polygon(0 0,100% 0,0 0);
+    clip-path: polygon(0 0,100% 0,100% 0,0 0);
+
 }
 header .search-bar-container.active{
-    clip-path: polygon(0 0,100% 0,0 0);
+    clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
 }
 header .search-bar-container #search-bar{
     width: 100%;
