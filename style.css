@@ -10,7 +10,7 @@
     transition: all .2s linear;
 }
 :root{
-    --orange:#fff500;
+    --orange:#bc7604;
 }
 *::selection{
     background:var(--orange);
@@ -263,7 +263,13 @@ cursor: pointer;
         width: 100%;
     }
 }
-
+.home {
+    background-image: url("https://prod-virtuoso.dotcmscloud.com/dA/188da7ea-f44f-4b9c-92f9-6a65064021c1/heroImage1/PowerfulReasons_hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
 
 .packages .box-container{
     display: flex;
